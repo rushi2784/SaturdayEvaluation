@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav {
+    background-color: rgb(0, 133, 252);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav i {
+    padding: 20px 60px 20px 20px;
+}
