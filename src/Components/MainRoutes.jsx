@@ -6,14 +6,16 @@ import Navbar from './Navbar'
 import Signin from './Signin'
 function MainRoutes() {
     return (
+        <div>
+            <Navbar />
+            <Routes>
 
-        <Routes>
-            <Route path='/' element={<Navbar />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/signin' element={<Signin />} />
-            <Route path='/cart' element={<Cart />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/signin' element={<Signin />} />
+                <Route path='/cart' element={<Cart />} />
 
-        </Routes>
+            </Routes>
+        </div>
 
     )
 }

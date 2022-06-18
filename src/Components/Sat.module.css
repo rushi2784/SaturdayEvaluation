@@ -17,3 +17,36 @@
 .nav i {
     padding: 20px 60px 20px 20px;
 }
+
+.map {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-top: 100px;
+
+
+}
+
+.map div {
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.map button {
+    background-color: blue;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.cart div {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+}
